@@ -6,6 +6,12 @@ https://johnworker.github.io/web_scroll-place/
 
 # 使用方式
 ## 連結CDN
+將 CDN 放在 body 結束標籤前
+https://johnworker.github.io/web_scroll-place/main.js
+
+```
+<script src="https://johnworker.github.io/web_scroll-place/main.js"></script>
+```
 
 ## 捲動說明
 data-st-target 要前往元素的ID名稱
