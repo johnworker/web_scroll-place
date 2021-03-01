@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body id="top">
+    <!-- data-st-target 要前往元素的ID名稱-->
+    <!-- data-st-duration 捲動所花的時間(毫秒) -->
+    <!-- data-st-offset 位移的大小 -->
+    <!-- nav>(a{連結})*3 -->
+    <nav><a href=""data-st-target="area1" data-st-duration="700">連結1</a>
+         <a href=""data-st-target="area2" data-st-duration="800" data-st-offset="-100">連結2</a>
+         <a href=""data-st-target="area3" data-st-duration="900" data-st-offset="100">連結3</a></nav>
+    <!-- section{區塊$}*3 -->
+    <section id="area1">區塊1</section>
+    <section id="area2">區塊2</section>
+    <section id="area3">區塊3</section>
+
+    <a id="arrow" data-st-target="top" data-st-duration="800" data-st-top="300" data-st-time="1000"></a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
